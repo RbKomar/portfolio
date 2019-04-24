@@ -12,6 +12,7 @@ $background-opacity: 0.8;
     &#bg-img{
       background: $home-image fixed;
       background-size: cover;
+      background-position: 10% 15%;
 
       &:after {
         content:'';
