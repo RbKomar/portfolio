@@ -1,0 +1,15 @@
+.about-colorize
+{
+  & > h1{
+    cursor:default;
+  }
+  &:hover{
+    color: $secondary-color;
+    @include easeOut;
+  }
+}
+
+.headings{
+  cursor:default;
+
+}
