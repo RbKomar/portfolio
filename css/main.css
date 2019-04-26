@@ -137,6 +137,9 @@
 .headings {
   cursor: default; }
 
+p {
+  color: white !important; }
+
 * {
   box-sizing: border-box; }
 
