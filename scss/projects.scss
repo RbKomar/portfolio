@@ -1,0 +1,58 @@
+@import'config';
+
+a{
+
+  &:hover{
+    color:#fff;
+    text-decoration: none;
+  }
+  &:visited{
+    color:#fff;
+    text-decoration: none;
+  }
+  &:link{
+    color:#fff;
+    text-decoration: none;
+  }
+  &:active{
+    color:#fff;
+    text-decoration: none;
+  }
+}
+
+.overlay{
+  position:relative;
+  width:604px;
+  height: 326px;
+  font-size:3rem;
+
+
+  .link_bottom{
+    position:absolute;
+    display:block;
+    background-color:rgba($primary-color, 0.7);
+    left: 0;
+    bottom: 0;
+    opacity:0;
+    height:50%;
+    width:604px;
+    @include easeOut;
+    &:hover{
+      opacity:1;
+    }
+  }
+  .link_top{
+    position:absolute;
+    display:block;
+    background-color:rgba($primary-color, 0.7);
+    left: 0;
+    top: 0;
+    opacity:0;
+    height:50%;
+    width:604px;
+    @include easeOut;
+    &:hover{
+      opacity:1;
+    }
+  }
+}

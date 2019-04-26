@@ -102,6 +102,10 @@
     main .lg-heading {
       line-height: 1;
       margin-bottom: 1rem; }
+    main .sm-heading {
+      margin-right: 20rem;
+      left: 4.5rem;
+      width: 74vw; }
   ul.menu-nav, div.menu-branding {
     float: none;
     width: 100%;
@@ -132,6 +136,56 @@
 
 .headings {
   cursor: default; }
+
+p {
+  color: white !important;
+  cursor: default; }
+
+a:hover {
+  color: #fff;
+  text-decoration: none; }
+
+a:visited {
+  color: #fff;
+  text-decoration: none; }
+
+a:link {
+  color: #fff;
+  text-decoration: none; }
+
+a:active {
+  color: #fff;
+  text-decoration: none; }
+
+.overlay {
+  position: relative;
+  width: 604px;
+  height: 326px;
+  font-size: 3rem; }
+  .overlay .link_bottom {
+    position: absolute;
+    display: block;
+    background-color: rgba(68, 68, 68, 0.7);
+    left: 0;
+    bottom: 0;
+    opacity: 0;
+    height: 50%;
+    width: 604px;
+    transition: all 0.5s ease-in-out; }
+    .overlay .link_bottom:hover {
+      opacity: 1; }
+  .overlay .link_top {
+    position: absolute;
+    display: block;
+    background-color: rgba(68, 68, 68, 0.7);
+    left: 0;
+    top: 0;
+    opacity: 0;
+    height: 50%;
+    width: 604px;
+    transition: all 0.5s ease-in-out; }
+    .overlay .link_top:hover {
+      opacity: 1; }
 
 * {
   box-sizing: border-box; }
@@ -169,10 +223,10 @@ h1, h2, h3 {
   overflow: hidden;
   display: inline;
   height: 2.8rem;
+  margin-left: 0.5rem;
   margin-bottom: 2rem;
   padding: 0.2rem 1rem;
-  line-height: 2.5rem;
-  background: rgba(73, 73, 73, 0.5); }
+  line-height: 2.5rem; }
   .sm-heading__container {
     font-weight: 600;
     overflow: hidden;
@@ -207,8 +261,7 @@ h1, h2, h3 {
       animation-iteration-count: infinite; }
       .sm-heading__container__list__item {
         line-height: 2.5rem;
-        margin: 0;
-        text-align: center; }
+        margin: 0; }
 
 @keyframes change {
   0%, 12%, 100% {
