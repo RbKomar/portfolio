@@ -138,7 +138,54 @@
   cursor: default; }
 
 p {
-  color: white !important; }
+  color: white !important;
+  cursor: default; }
+
+a:hover {
+  color: #fff;
+  text-decoration: none; }
+
+a:visited {
+  color: #fff;
+  text-decoration: none; }
+
+a:link {
+  color: #fff;
+  text-decoration: none; }
+
+a:active {
+  color: #fff;
+  text-decoration: none; }
+
+.overlay {
+  position: relative;
+  width: 604px;
+  height: 326px;
+  font-size: 3rem; }
+  .overlay .link_bottom {
+    position: absolute;
+    display: block;
+    background-color: rgba(68, 68, 68, 0.7);
+    left: 0;
+    bottom: 0;
+    opacity: 0;
+    height: 50%;
+    width: 604px;
+    transition: all 0.5s ease-in-out; }
+    .overlay .link_bottom:hover {
+      opacity: 1; }
+  .overlay .link_top {
+    position: absolute;
+    display: block;
+    background-color: rgba(68, 68, 68, 0.7);
+    left: 0;
+    top: 0;
+    opacity: 0;
+    height: 50%;
+    width: 604px;
+    transition: all 0.5s ease-in-out; }
+    .overlay .link_top:hover {
+      opacity: 1; }
 
 * {
   box-sizing: border-box; }
